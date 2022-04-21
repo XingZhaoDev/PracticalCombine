@@ -16,6 +16,9 @@
 		CE8AC3842811C2500033000E /* PracticalCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AC3832811C2500033000E /* PracticalCombineTests.swift */; };
 		CE8AC38E2811C2500033000E /* PracticalCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AC38D2811C2500033000E /* PracticalCombineUITests.swift */; };
 		CE8AC3902811C2500033000E /* PracticalCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AC38F2811C2500033000E /* PracticalCombineUITestsLaunchTests.swift */; };
+		CE8AC39E2811D7FB0033000E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AC39D2811D7FB0033000E /* Car.swift */; };
+		CE8AC3A02811DD3C0033000E /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AC39F2811DD3C0033000E /* Counter.swift */; };
+		CE8AC3A32811F62F0033000E /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AC3A22811F62F0033000E /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		CE8AC3892811C2500033000E /* PracticalCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticalCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8AC38D2811C2500033000E /* PracticalCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalCombineUITests.swift; sourceTree = "<group>"; };
 		CE8AC38F2811C2500033000E /* PracticalCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE8AC39D2811D7FB0033000E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CE8AC39F2811DD3C0033000E /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		CE8AC3A22811F62F0033000E /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		CE8AC36B2811C24E0033000E /* PracticalCombine */ = {
 			isa = PBXGroup;
 			children = (
+				CE8AC3A12811F6050033000E /* ViewModels */,
+				CE8AC39C2811D7EE0033000E /* Models */,
 				CE8AC36C2811C24E0033000E /* AppDelegate.swift */,
 				CE8AC36E2811C24E0033000E /* SceneDelegate.swift */,
 				CE8AC3702811C24E0033000E /* ViewController.swift */,
@@ -125,6 +133,23 @@
 				CE8AC38F2811C2500033000E /* PracticalCombineUITestsLaunchTests.swift */,
 			);
 			path = PracticalCombineUITests;
+			sourceTree = "<group>";
+		};
+		CE8AC39C2811D7EE0033000E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE8AC39D2811D7FB0033000E /* Car.swift */,
+				CE8AC39F2811DD3C0033000E /* Counter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE8AC3A12811F6050033000E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE8AC3A22811F62F0033000E /* CarViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8AC3A02811DD3C0033000E /* Counter.swift in Sources */,
+				CE8AC3A32811F62F0033000E /* CarViewModel.swift in Sources */,
 				CE8AC3712811C24E0033000E /* ViewController.swift in Sources */,
 				CE8AC36D2811C24E0033000E /* AppDelegate.swift in Sources */,
+				CE8AC39E2811D7FB0033000E /* Car.swift in Sources */,
 				CE8AC36F2811C24E0033000E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
